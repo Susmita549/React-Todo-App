@@ -1,0 +1,102 @@
+
+
+.striked{
+    text-decoration: line-through;
+    color:green;
+}
+
+.box{
+    /* border:1px solid black; */
+    max-width:30%;
+    margin: 2rem auto;
+    padding:10px;
+
+}
+.box>input {
+    display: block;
+    max-width: 1000px;
+    padding: 10px 50px;
+    margin:auto;
+    background-color: rgb(231, 238, 167)
+}
+
+.box>input,
+input::placeholder {
+    font: 22px sans-serif;
+}
+.todo{
+    /* border:1px solid black; */
+    margin:0.5rem auto;
+    display:flex;
+    justify-content:space-around;
+    padding:5px;
+    /* border:1px solid blue; */
+    background-color:bisque;
+    max-width:60%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+   rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, 
+   rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+.todo>div:first-child{
+    /* border:1px solid red; */
+    width:70%;
+    height:50px
+    
+}
+.todo>div:seccond-child{
+    /* border:1px solid red; */
+    width:30%;
+   
+}
+.text{
+    display:flex;
+   flex-direction: flex-start;
+   
+}
+.text>div{
+    /* border:1px solid green; */
+    margin:0 10px;
+   
+}
+
+.delete>button{
+    padding:15px;
+    /* background-color: rgb(130, 237, 237); */
+    box-shadow: rgba(242, 227, 227, 0.17) 0px -23px 25px 0px inset, rgba(216, 201, 201, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(213, 202, 202, 0.09) 0px 16px 8px, rgba(224, 213, 213, 0.09) 0px 32px 16px;
+    border-radius: 60px;
+    border:none;
+}
+.show_todo{
+    /* background-color:rgb(126, 211, 126); */
+    max-width:80%;
+    margin: 10px auto;
+    height:50px;
+    box-shadow: rgba(131, 195, 109, 0.17) 0px -23px 25px 0px inset, rgba(110, 245, 98, 0.237) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(44, 231, 85, 0.09) 0px 16px 8px, rgba(155, 233, 110, 0.09) 0px 32px 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding:0 30px;
+}
+
+input.checkbox{
+    width: 25px;
+    height: 25px;
+    margin-top:15px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, 
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border:none;
+}
+p{
+    font-size: 24px;
+    margin-top:10px
+}
+h1{
+    text-shadow: -8px 7px 9px rgba(136,61,61,0.61);
+    margin-top:5rem;
+    font-size: 45px;
+    
+}
